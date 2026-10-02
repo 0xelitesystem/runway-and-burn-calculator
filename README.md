@@ -18,13 +18,30 @@ A tear-off desk calendar: a red header band, a perforated page edge, and a large
 
 This tool performs arithmetic on the numbers you enter. It is not financial, tax, or accounting advice, and it does not account for your specific circumstances. Verify any figure before acting on it.
 
+## Why this exists
+
+Runway is one division, and you should not have to hand your company's cash figures to a website to do it. This is one HTML file that does the arithmetic in your browser, with no tracking and no network calls. MIT licensed.
+
 ## Privacy
 
 Everything runs in your browser. Nothing you type is sent anywhere, stored, or saved. Closing the tab clears it.
 
-## Use it
+## Use
 
 Open `index.html` in any modern browser, or host it as a static page. No build step, no dependencies, no network calls.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/runway-and-burn-calculator
+cd runway-and-burn-calculator
+```
+
+Open `index.html` in any browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS, JavaScript and font subsets inline.
 
 ## More
 
